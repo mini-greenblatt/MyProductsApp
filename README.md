@@ -1,6 +1,6 @@
 # ProductsApp
 
-React Native app for displaying products and categories
+A React Native app for browsing categories and products, with stack navigation, data fetching, and a simple UI.
 
 ---
 
@@ -11,6 +11,10 @@ React Native app for displaying products and categories
    yarn
    ```
 2. **Run the application:**
+   - **Start Netro:**
+     ```bash
+     yarn start
+     ```
    - **Android:**
      ```bash
      yarn android
@@ -26,7 +30,7 @@ React Native app for displaying products and categories
 
 - **React Native** — Mobile app development
 - **React Navigation** — Screen navigation
-- **React Query & axios** — API calls
+- **React Query & axios** — API requests
 - **TypeScript** — Type safety and robust code
 
 ---
@@ -38,11 +42,11 @@ AppointmentApp/
 ├── App.tsx
 ├── package.json
 ├── src/
-│   ├── components/    // Reusable components (Text, Card)
-│   ├── data/          // api and functionality on the data
-│   ├── navigation/    // Navigation configuration
-│   ├── screens/       // Screens (Categories, Products)
-│   └── theme/         // spacing, typography
+│   ├── components/    // Reusable components (Text, Card).
+│   ├── data/          // API calls and utilities.
+│   ├── navigation/    // Navigation configuration.
+│   ├── screens/       // Screens (Categories, Products).
+│   └── theme/         // spacing, typography.
 ├── ios/
 ├── android/
 └── README.md
@@ -52,7 +56,7 @@ AppointmentApp/
 
 ## 📝 Technical Overview
 
-- **React Query** was chosen for its simplicity, performance, and easy integration with Api call and access to cached data.
+- **React Query** was chosen for its simplicity, performance, and easy integration with Api call and access to cached data, loading and error handling.
 - Each screen is separated into its own file, basic components are in the `components` directory.
 - Basic styling is handled with StyleSheet, with spacing defined in the `theme` directory.
 ---
