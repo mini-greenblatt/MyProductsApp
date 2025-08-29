@@ -1,8 +1,6 @@
 # ProductsApp
 
-A React Native application for show products and categories
-
-This project demonstrates 
+React Native app for displaying products and categories
 
 ---
 
@@ -28,7 +26,7 @@ This project demonstrates
 
 - **React Native** — Mobile app development
 - **React Navigation** — Screen navigation
-- **React Query** — API integration
+- **React Query & axios** — API calls
 - **TypeScript** — Type safety and robust code
 
 ---
@@ -40,10 +38,10 @@ AppointmentApp/
 ├── App.tsx
 ├── package.json
 ├── src/
-│   ├── components/    // Reusable components (Text,Card)
-│   ├── data/          // api and logic the data
+│   ├── components/    // Reusable components (Text, Card)
+│   ├── data/          // api and functionality on the data
 │   ├── navigation/    // Navigation configuration
-│   ├── screens/       // Main screens (Categories, Products)
+│   ├── screens/       // Screens (Categories, Products)
 │   └── theme/         // spacing, typography
 ├── ios/
 ├── android/
@@ -54,8 +52,8 @@ AppointmentApp/
 
 ## 📝 Technical Overview
 
-- **React Query** was chosen for its simplicity, performance, and easy integration with Api call.
-- Each screen is separated into its own file; basic components are in the `components` directory.
+- **React Query** was chosen for its simplicity, performance, and easy integration with Api call and access to cached data.
+- Each screen is separated into its own file, basic components are in the `components` directory.
 - Basic styling is handled with StyleSheet, with spacing defined in the `theme` directory.
 ---
 
